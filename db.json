@@ -1,0 +1,33 @@
+{
+   "users": [
+      {
+         "name": "Shikhar Dhawan",
+         "username": "dhawansikhar",
+         "email": "dhawan@gmail.com",
+         "phone": "4569874563",
+         "id": 6
+      },
+      {
+         "name": "test",
+         "username": "Melnichuk",
+         "email": "pates1993@mail.ru",
+         "phone": "80259008595",
+         "id": 7
+      },
+      {
+         "8": "",
+         "id": 8,
+         "name": "Pavel2123123",
+         "email": "pates@mail.com",
+         "phone": "802577895",
+         "username": "Kayki"
+      },
+      {
+         "name": "Kirillica",
+         "username": "Belyev",
+         "email": "belyaev@mail.com",
+         "phone": "802534455734",
+         "id": 9
+      }
+   ]
+}

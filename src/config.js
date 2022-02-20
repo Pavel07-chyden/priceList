@@ -1,0 +1,1 @@
+export const API_URL = https://fake-server-pates.herokuapp.com/;
