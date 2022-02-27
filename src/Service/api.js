@@ -1,34 +1,29 @@
 import axios from "axios";
 
-
-
-
-
-const developmentMode = false
-const url = 'http://localhost:5000/users';
+const url = 'https://price-list-becend.herokuapp.com/users';
 
 const instance = axios.create({
-   url: developmentMode ? 'http://localhost:3000' : 'http://localhost:5000'
+   baseURL: url
 })
 
 
 
 export const getUsers = async (id) => {
    id = id || '';
-   return await instance.get(`${url}/${id}`);
+   return await instance.get(`/${id}`);
 }
 
 export const addUser = async (user) => {
-   return await instance.post(url, user);
+   return await instance.post('', user);
 }
 
 export const editUser = async (id, user) => {
    debugger
-   return await instance.put(`${url}/${id}`, user);
+   return await instance.put(`/${id}`, user);
 }
 
 export const deleteUser = async (id) => {
-   return await instance.delete(`${url}/${id}`);
+   return await instance.delete(`/${id}`);
 }
 
 
