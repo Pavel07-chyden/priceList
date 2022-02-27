@@ -1,7 +1,7 @@
 {
+  "homepage": "",
   "name": "my-crud",
   "version": "0.1.0",
-  "homepage": "https://Pavel07-chyden.github.io/priceList",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
